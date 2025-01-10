@@ -8,10 +8,16 @@
 .haso_item {
 }
 .haso_items {
+ 
+    color: black;
+}
+.haso_items:nth-child(1){
+    padding-top: 140px;
     color: black;
 }
 .haso_items:nth-child(3) {
     color: grey;
+    padding-bottom: 140px;
 } 
 @media screen and (max-width:480px) {
     .haso {

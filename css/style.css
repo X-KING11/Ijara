@@ -457,8 +457,14 @@ a {
   color: black;
 }
 
+.haso_items:nth-child(1) {
+  padding-top: 140px;
+  color: black;
+}
+
 .haso_items:nth-child(3) {
   color: grey;
+  padding-bottom: 140px;
 }
 
 @media screen and (max-width: 480px) {
@@ -536,13 +542,14 @@ a {
   font-size: 25px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 440px) {
   .rent {
     background-image: url(/бг\ \(1\).svg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 770px;
+    height: 990px;
     color: white;
+    padding-bottom: 350px;
   }
   .rent_wrapper {
     display: block;
@@ -566,13 +573,13 @@ a {
   }
   .btn_2 {
     margin: 0 auto;
-    width: 450px;
+    width: 440px;
     height: 50px;
   }
   .k {
     margin: 0 auto;
     display: flex;
-    width: 450px;
+    width: 440px;
     height: 50px;
   }
 }
@@ -676,7 +683,7 @@ a {
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 440px) {
   .foteer_conrteiner {
     display: block;
   }
@@ -694,6 +701,6 @@ a {
     display: block;
   }
   .a {
-    max-width: 479px;
+    max-width: 430px;
   }
 }/*# sourceMappingURL=style.css.map */
