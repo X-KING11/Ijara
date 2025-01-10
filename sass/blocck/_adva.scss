@@ -6,7 +6,7 @@ margin-top: 50px;
 }
 .adva_wrapper {
     display: flex;
-    gap: 30px;
+
     width: 95%;
     margin:  0 auto;
 }
@@ -34,14 +34,18 @@ margin-top: 50px;
     .adva_title{
         display: none;
     }
-    .adva_img_r, .adva_img_l{
-        width: 100vh;
-    }
+   
     .adva_wrapper {
         overflow-x: hidden;
         display: block;
         gap: 30px;
         width: 100%;
         margin:  0 auto;
+    }
+    .adva_imf_l {
+        max-width: 479px;
+    }
+    .adva_imf_r {
+        max-width: 479px;
     }
 }

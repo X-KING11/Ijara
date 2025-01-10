@@ -496,9 +496,19 @@
                     </li>
                 </ul>
                 <br><br><br>
-                <img src="Group 65.svg" alt="">
+                <img class="a" src="Group 65.svg" alt="">
             </div>
         </div>
     </foteer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const mainTitle = document.querySelector(".main_items");
+            const mainItem = document.querySelector(".main_items");
+    
+            mainTitle.addEventListener("click", function() {
+                mainItem.classList.toggle("active");
+            });
+        });
+    </script>
 </body>
 </html>

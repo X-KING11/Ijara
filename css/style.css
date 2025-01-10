@@ -101,7 +101,7 @@ a {
 .hero_titile {
   font-size: 89px;
   color: #fff;
-  padding-top: 180px;
+  padding-top: 170px;
   width: 754px;
   margin: 0 auto;
 }
@@ -147,7 +147,7 @@ a {
 
 @media screen and (max-width: 480px) {
   .hero_titile {
-    max-width: 480px;
+    max-width: 455px;
     font-size: 20px;
   }
 }
@@ -583,7 +583,6 @@ a {
 
 .adva_wrapper {
   display: flex;
-  gap: 30px;
   width: 95%;
   margin: 0 auto;
 }
@@ -611,15 +610,18 @@ a {
   .adva_title {
     display: none;
   }
-  .adva_img_r, .adva_img_l {
-    width: 100vh;
-  }
   .adva_wrapper {
     overflow-x: hidden;
     display: block;
     gap: 30px;
     width: 100%;
     margin: 0 auto;
+  }
+  .adva_imf_l {
+    max-width: 479px;
+  }
+  .adva_imf_r {
+    max-width: 479px;
   }
 }
 .foteer {
@@ -635,18 +637,6 @@ a {
   justify-content: space-between;
 }
 
-.min {
-  gap: 40px;
-}
-
-.adres {
-  display: block;
-}
-
-.mail {
-  display: block;
-}
-
 .main_item {
   display: flex;
   gap: 150px;
@@ -657,13 +647,26 @@ a {
   width: 10%;
 }
 
+.foteer_main_title {
+  cursor: pointer;
+}
+
+.second_item {
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.main_items.active .second_item {
+  display: block;
+}
+
 .seconds_items > a {
   color: grey;
   line-height: 38px;
 }
 
 .i {
-  width: 100%;
+  max-width: 100%;
   justify-content: space-between;
   display: flex;
   gap: 10px;
@@ -673,9 +676,24 @@ a {
   display: none;
 }
 
-.o {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  width: 400px;
+@media screen and (max-width: 480px) {
+  .foteer_conrteiner {
+    display: block;
+  }
+  .main_item {
+    display: block;
+  }
+  .main_items {
+    width: 100%;
+  }
+  .seconds_items {
+    background-color: #1D1D1D;
+    width: 100%;
+  }
+  .i > img {
+    display: block;
+  }
+  .a {
+    max-width: 479px;
+  }
 }/*# sourceMappingURL=style.css.map */
