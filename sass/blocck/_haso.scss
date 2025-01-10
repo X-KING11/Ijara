@@ -1,0 +1,25 @@
+.haso {
+    max-width: 1208px;
+    margin: 150px auto;
+
+}
+.conteiner {
+}
+.haso_item {
+}
+.haso_items {
+    color: black;
+}
+.haso_items:nth-child(3) {
+    color: grey;
+} 
+@media screen and (max-width:480px) {
+    .haso {
+        max-width: 400px;
+        margin: 700px 0px 0px 0px;
+    
+    }
+    .haso_item{
+        margin-left: 45px;
+    }
+}

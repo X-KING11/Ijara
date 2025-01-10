@@ -1,0 +1,47 @@
+.adva {
+    width: 100%;
+margin-top: 50px;
+}
+.adva_conteiner {
+}
+.adva_wrapper {
+    display: flex;
+    gap: 30px;
+    width: 95%;
+    margin:  0 auto;
+}
+.adva_title {
+    text-align: center;                  
+    max-width: 40%;
+    margin-left: 50px;
+}
+.adva_left {
+}
+.adva_right {
+}
+.adva_img_r, .adva_img_l{
+    width: 100%;
+}
+.adva_title_2{
+    display: none;
+}
+@media screen  and (max-width:480px){
+    .adva_title_2{
+        display: block;
+        font-size: 35px;
+        text-align: center;
+    }
+    .adva_title{
+        display: none;
+    }
+    .adva_img_r, .adva_img_l{
+        width: 100vh;
+    }
+    .adva_wrapper {
+        overflow-x: hidden;
+        display: block;
+        gap: 30px;
+        width: 100%;
+        margin:  0 auto;
+    }
+}
