@@ -1,0 +1,38 @@
+.rent {
+    background-image: url(/бг\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+.g{
+    font-size: 25px;
+}
+@media screen and (max-width:480px) {
+@media screen and (max-width:440px) {
+    .rent {
+        background-image: url(/бг\ \(1\).svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 770px;
+        height: 990px;
+        color: white;
+    
+        padding-bottom: 350px;
+    }
+    .rent_wrapper {
+     display: block;
+    width: 90%;
+ }
+ .btn_2{
+    margin: 0 auto;
+    width: 450px;
+    width: 440px;
+    height: 50px;
+ }
+ .k{
+    margin: 0 auto;
+    display: flex;
+    width: 450px;
+    width: 440px;
+    height: 50px;
+ }
+}
